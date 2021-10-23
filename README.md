@@ -8,6 +8,42 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```r
+# Use the mtcars dataset. This is built into R and should always be available
+# View() function will create a new tab in Rstudio to browse and filter the 
+# dataset. 
+View(mtcars)
+
+# The head() function prints the first six rows of every column in the console
+# but it is possible to change this default behaviour
+head(mtcars)
+head(mtcars, n = 10)
+
+# Check what class of object it is
+class(mtcars)
+
+# Check the structure
+str(mtcars)
+
+# Find out the how many rows and columns it contains using dim() function
+dim(mtcars)
+
+# Alternatively use nrow() and ncol()
+nrow(mtcars)
+ncol(mtcars)
+
+# Create a summary output of each variable (or column)
+# Note that summary() does not apply to the row names
+summary(mtcars)
+
+# View the distrubution of a numeric variable in a histogram
+hist(mtcars$mpg)
+
+# Add more breaks if required
+hist(mtcars$mpg, breaks = 20)
+```
+
+
 ```markdown
 Syntax highlighted code block
 
