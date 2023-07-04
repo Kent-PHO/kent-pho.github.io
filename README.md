@@ -64,7 +64,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-Download a [simple csv file](https://github.com/Kent-PHO/R-examples/blob/4a4a234578be01a9f88df7aa044502154dc3191a/simple_table.csv?raw=true)
+Download a [simple csv file](https://github.com/Kent-PHO/R-examples/blob/4a4a234578be01a9f88df7aa044502154dc3191a/simple_table.csv)
 
 ### Jekyll Themes
 
